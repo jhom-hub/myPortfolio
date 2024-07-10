@@ -1,0 +1,176 @@
+@font-face {
+    font-family: "myFont";
+    src: url("assets/fonts/Trajan Pro Regular.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "myFont", sans-serif;
+}
+
+nav {
+    background-color: #120e0f;
+    box-shadow: 0 2px 5px #218fd9;
+}
+
+.section1 {
+    background-color: #120e0f;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.my_pic {
+    border: 1px solid #218fd9;
+    box-shadow: 3px 3px 5px #218fd9;
+}
+
+.my_pic .graph {
+    position: relative;
+    top: 100px;
+    width: 500px;
+    height: 500px;
+}
+
+.my_pic .me {
+    position: absolute;
+    top: 93px;
+    left: 555px;
+}
+
+.sec1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.greet .jhom {
+    font-size: 36pt;
+    color: #fff;
+}
+
+.greet .craft {
+    font-size: 12pt;
+    color: #fff;
+}
+
+.mell {
+    font-weight: 600;
+    color: #218fd9;
+    text-shadow: 2px 2px 4px #104a70;
+}
+
+@keyframes wave {
+    0% {
+        transform: rotate(0deg) translateY(0);
+    }
+    25% {
+        transform: rotate(2deg) translateY(-5px);
+    }
+    50% {
+        transform: rotate(0deg) translateY(0);
+    }
+    75% {
+        transform: rotate(-2deg) translateY(5px);
+    }
+    100% {
+        transform: rotate(0deg) translateY(0);
+    }
+}
+
+.graph {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.wavy {
+    animation: wave 10s infinite;
+}
+
+.button1 {
+    text-decoration: none;
+    background: linear-gradient(to right, #218fd9, #63b5e5);
+    padding: 12px;
+    color: #120e0f;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.button1:hover {
+    transform: scale(1.4);
+    border: 1px solid #218fd9;
+    color: #fff;
+    background: none;
+    box-shadow: 2px 2px 5px #218fd9;
+    transition: ease-in-out;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid #218fd9;
+}
+
+.nav-link:focus {
+    border-bottom: 2px solid #218fd9;
+}
+
+.section2 {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #218fd9;
+}
+
+.certif {
+    font-size: 70pt;
+    font-weight: 500;
+    color: #120e0f;
+}
+
+.cert1, .cert2, .cert3, .cert4 {
+    border: 1px solid #6fb8e9;
+    box-shadow: 3px 3px 5px #6fb8e9;
+}
+
+.certif1, .certif2, .certif3, .certif4 {
+    width: 500px;
+    height: 400px;
+    box-shadow: 2px 2px 3px #120e0f;
+    border-radius: 5px;
+}
+
+.crime, .cyber, .adobe, .ssi {
+    font-size: 12pt;
+    font-weight: 600;
+    letter-spacing: 1pt;
+    text-shadow: 2px 2px 4px #120e0f;
+    color: #120e0f;
+}
+
+.stack {
+    font-size: 30pt;
+    font-weight: 600;
+    color: #120e0f;
+}
+
+.section3 {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #120e0f;
+}
+
+.projs {
+    font-size: 70pt;
+    font-weight: 500;
+    color: #120e0f;
+    text-shadow: 2px 2px 5px #218fd9, -2px -2px 5px #218fd9;
+    letter-spacing: 1pt;
+}
+
+.proj1 {
+    width: 18rem;
+    height: 500px;
+    box-shadow: 3px 3px 3px #63b5e5;
+    border: 1px solid #218fd9;
+}
